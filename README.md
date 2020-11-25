@@ -1,40 +1,41 @@
-# Pronóstico de tendencia de productos financieros con series de tiempo y Google trends
+# Financial product trend forecasting with time series and Google trends
 
 [![lisence](https://img.shields.io/github/license/cbarros7/sentiment-analysis-banking-sector?style=plastic)](https://github.com/cbarros7/time_series_productos_financieros/blob/master/LICENSE)
 [![Twitter Carlos](https://img.shields.io/twitter/follow/cbarros27?label=CarlosBarros&style=social)](https://twitter.com/cbarros27)
 
-## Descripción :speech_balloon:
-El pronóstico se considera un ingrediente clave de la toma de decisiones tanto en el sector público como en el privado. Es particularmente importante en el contexto de la banca, tanto por su gestión como por su supervisión.
+## Description :speech_balloon:
+Forecasting is considered a key ingredient of decision making in both the public and private sectors. It is particularly important in the context of banking, both in terms of management and supervision.
 
-**¿Cuál es el objetivo de este proyecto?**  El objetivo de este estudio es pronosticar a través de series de tiempo el número de búsquedas para el año 2021 de los principales productos financieros a partir de datos históricos semanales de 5 años, es decir, las fechas comprendidas desde el 19/07/2010 hasta el 12/07/2020.
+The objective of this study is to forecast through time series the number of searches for the year 2021 of the main financial products based on weekly historical data of 5 years, that is, the dates from 19/07/2010 to 12/07/2020.
 
-## Herramientas :hammer:
+## Tools :hammer:
 The tools used to develop the project were:
  * Jupyter Notebook - Python
  * Google trends
 
 ## Project structure :notebook_with_decorative_cover:
 
-### Adquisición de datos
-#### Fuente de datos
-El presente estudio tiene 7 conjuntos de datos totalmente diferentes, pertenecientes a cada categoría de productos definidos anteriormente. Los datos han sido descargados en Google trends con el filtro de búsquedas en Colombia desde el 2015 hasta el 2020.  
+### Data
+This study has 7 different data sets, belonging to each category of products defined above. The data has been downloaded in **[Google trends](https://trends.google.com/trends/?geo=US)** with the filter of searches in Colombia from 2015 to 2020. 
 
-### Análisis exploratorio
-#### Crédito hipotecario
-El valor de la media de las búsquedas para este conjunto fue de 56 con una desviación estándar de 14, el primer cuartil Q1 se ubicó en 47 y el tercero Q3 en 66. Su distribución es mesocúrtica debido a que el valor de Kurtosis fue de 0.16, es decir, que la distribución tiene una concentración normal en su región central. En el gráfico 1 se puede observar la densidad comprobando lo anterior.
+
+### Exploratory analysis
+#### Mortgage credit
+The average value of the searches for this set was 56 with a standard deviation of 14, the first quartile Q1 was located at 47, and the third quartile Q3 at 66. Its distribution is mesocuric because the value of Kurtosis was 0.16, that is, the distribution has a normal concentration in its central region. In graph 1, the density can be seen by checking the above.
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/60367519/88868311-720e4b00-d1d5-11ea-8797-12b3610777e2.png">
 </p>
-<p align="center"><strong>Gráfico 1</strong></p>
+<p align="center"><strong>Graph 1</strong></p>
 <br>
 
-En primera instancia parece una distribución gaussiana, sin embargo, es una distribución normal ya que el valor de oblicuidad fue de 0.31 presentando presencia de valores atípicos en los máximos tal y como se puede observar en el diagrama de caja y bigotes.
+In the first instance, it looks like a Gaussian distribution, however, it is a normal distribution since the obliquity value was 0.31 presenting the presence of outliers in the maxima as can be seen in the box and whiskers diagram.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/60367519/88868317-79cdef80-d1d5-11ea-946f-8367d9b628b1.png">
 </p>
-<p align="center"><strong>Gráfico 2</strong></p>
+<p align="center"><strong>Graph 2</strong></p>
 <br>
 
 ## Authors :black_nib:
